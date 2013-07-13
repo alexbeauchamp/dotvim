@@ -1,0 +1,10 @@
+Installation:
+
+	git clone git://
+
+Create symlinks:
+
+	Windows:
+		From a CMD Prompt
+
+		mklink %User%\.vimrc %User%\
