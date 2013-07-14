@@ -1,8 +1,13 @@
 Installation:
 
-	git clone git://
+	git clone https://github.com/alexbeauchamp/dotvim.git ~/.vim 
 
 Create symlinks:
+	
+	OS X / Linux
+
+		ln -s ~/.vim/vimrc ~/.vimrc
+		ln -s ~/.vim/vimrc ~/.gvimrc
 
 	Windows:
 		From a CMD Prompt
