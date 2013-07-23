@@ -47,6 +47,8 @@ if &t_Co > 2 || has("gui_running")
   set hlsearch
 endif
 
+colorscheme tomorrownight
+
 " Only do this part when compiled with support for autocommands.
 if has("autocmd")
 
