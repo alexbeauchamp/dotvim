@@ -49,6 +49,16 @@ endif
 
 colorscheme tomorrownight
 
+" Set Consolas 11 on Windows and Incolsolat 12 font on everything else
+if has("gui_running")
+  if has("gui_gtk2")
+    set guifont=Inconsolata\ 12
+  elseif has("gui_win32")
+    set guifont=Consolas:h11:cANSI
+  endif
+endif
+
+
 " Only do this part when compiled with support for autocommands.
 if has("autocmd")
 
