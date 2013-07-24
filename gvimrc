@@ -47,6 +47,7 @@ if &t_Co > 2 || has("gui_running")
   set hlsearch
 endif
 
+" Set colorscheme
 colorscheme base16_tomorrow 
 
 " Set Consolas 11 on Windows and Incolsolata 12 font on everything else

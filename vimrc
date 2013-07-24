@@ -48,7 +48,7 @@ if &t_Co > 2 || has("gui_running")
 endif
 
 " Set colorscheme
-colorscheme base16_tomorrow
+colorscheme base16tomorrow
 
 " Only do this part when compiled with support for autocommands.
 if has("autocmd")
