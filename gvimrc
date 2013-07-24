@@ -49,12 +49,12 @@ endif
 
 colorscheme tomorrownight
 
-" Set Consolas 11 on Windows and Incolsolat 12 font on everything else
+" Set Consolas 11 on Windows and Incolsolata 12 font on everything else
 if has("gui_running")
   if has("gui_gtk2")
-    set guifont=Inconsolata\ 12
+    set guifont=Inconsolata\ 10
   elseif has("gui_win32")
-    set guifont=Consolas:h11:cANSI
+    set guifont=Consolas:h10:cANSI
   endif
 endif
 
