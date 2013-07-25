@@ -48,7 +48,7 @@ if &t_Co > 2 || has("gui_running")
 endif
 
 " Set colorscheme
-colorscheme base16_tomorrow 
+colorscheme base16-tomorrow 
 
 " Set Consolas 11 on Windows and Incolsolata 12 font on everything else
 if has("gui_running")
